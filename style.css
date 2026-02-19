@@ -133,11 +133,20 @@ h1{
 }
 
 /*-------------------about me----------------*/
+.about{
+    height:500px;
+    background-color: rgb(57, 59, 61);
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
 
-.about{  
+.about-container, .skill-container{  
     height: 400px;
-    width: 470px;
-    margin: 110px 50px 50px;
+    width: 500px;
+    margin: 10px 50px 50px;
     padding: 30px;   
     border: 1px solid #fed700;
     border-radius: 15px;
@@ -156,20 +165,6 @@ h1{
 
 /*---------------------skills---------------*/
 
-.skill-container{
-    height: 400px;
-    width: 470px;
-    border: 1px solid #fed700;
-    border-radius: 15px;
-    top: 102%;
-    left : 50%;
-    margin: 50px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: absolute;
-}
 
 .skill-card h3{
     display: inline;
